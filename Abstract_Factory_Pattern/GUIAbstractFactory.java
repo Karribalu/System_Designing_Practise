@@ -1,8 +1,8 @@
 package Abstract_Factory_Pattern;
 
-public class GUIAbstractFactory implements IFactory {
-    @Override
-    public GUIAbstractFactory getFactory(String os) {
+public class GUIAbstractFactory {
+
+    public IFactory getFactory(String os) {
         switch (os) {
             case "Mac":
                 return new MacFactory();
