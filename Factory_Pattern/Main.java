@@ -13,5 +13,6 @@ public class Main {
             System.out.println("Null Object");
         else
             obj.draw();
+        sc.close();
     }
 }
